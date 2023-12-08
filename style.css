@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    height: 95.8vh;
+background-color: gold;
+    display:flex;
+    align-items: center;
+    justify-content:  center;
+    border:20px solid red;
+}
+.nam{
+    position: absolute;
+    top: -3vh;
+}
+.dragon{
+    position: absolute;
+    top: -11vh;
+    right: 10vh;
+}
+.dragon1{
+    position: absolute;
+    content: '';
+    top: -11vh;
+    left: 10vh;
+    transform: rotateY(180deg);
+}
+.fw1{
+    position: absolute;
+    top: -20vh;
+    left:-40vh;
+}
+.fw2{
+    position: absolute;
+    top: -20vh;
+    right:2vh;
+}
+h1{
+    position: absolute;
+    font-size: 150px;
+    top: 20vh;
+    left: 2vh;
+    text-align: center;
+
+}
+h2{
+    position: absolute;
+    font-size: 150px;
+    top: 50vh;
+    right: 2vh;
+    text-align: center;
+}
+a{
+    position: absolute;
+    text-align: center;
+    background-color: transparent;
+    font-size: 40px;
+    color: darkorchid;
+    width: auto;
+    height: 50vh;
+    padding: 40px 40px;
+    border: 5px double red;
+    border-radius: 20%;
+    top: 30vh;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
